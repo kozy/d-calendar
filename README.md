@@ -12,5 +12,5 @@ npm install
 npm start
 ```
 
-#Goal
-Update d-calendar to Polymer 1.0
+# Status
+Working with Polymer 1.0 now
