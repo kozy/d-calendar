@@ -157,7 +157,7 @@ Fired when selecting a specific day of the month.
       this.weeks= this.dateUtils.getWeekArray(this.date, this.language);
       
       //Render Weeks to get slide effects
-      var el = this.querySelector('.weeks');
+      var el = Polymer.dom(this.root).querySelector('.weeks');
       this.dateUtils.renderNode(el);
     },
 
